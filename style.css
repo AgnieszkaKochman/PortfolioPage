@@ -313,26 +313,42 @@ textarea {
     left: 115%; } }
 .socials {
   margin: 0;
-  float: right; }
-  .socials .fa {
-    margin: 0 40px;
-    transition: color 0.5s; }
-  .socials .fa-facebook {
-    font-size: 35px;
-    color: #022F70; }
-    .socials .fa-facebook:hover {
+  float: right;
+  text-align: left; }
+  .socials a {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+    text-decoration: none; }
+    .socials a span {
+      color: #333333; }
+    .socials a .fa {
+      display: inline-block;
+      width: 120px;
+      text-align: center;
+      transition: color 0.5s; }
+    .socials a .fa-envelope {
+      font-size: 35px;
+      color: #B44901; }
+    .socials a .fa-facebook {
+      font-size: 35px;
+      color: #022F70; }
+    .socials a .fa-linkedin {
+      font-size: 37px;
+      color: #0F6353; }
+    .socials a .fa-github {
+      font-size: 40px;
+      color: #410155; }
+    .socials a:hover .fa-envelope {
+      color: #EE9203;
+      animation: social-hover 1s ease; }
+    .socials a:hover .fa-facebook {
       color: #0373BD;
       animation: social-hover 1s ease; }
-  .socials .fa-linkedin {
-    font-size: 37px;
-    color: #0F6353; }
-    .socials .fa-linkedin:hover {
+    .socials a:hover .fa-linkedin {
       color: #06A998;
       animation: social-hover 1s ease; }
-  .socials .fa-github {
-    font-size: 40px;
-    color: #410155; }
-    .socials .fa-github:hover {
+    .socials a:hover .fa-github {
       color: #83309A;
       animation: social-hover 1s ease; }
 

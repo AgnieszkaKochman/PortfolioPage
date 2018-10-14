@@ -177,6 +177,10 @@ nav {
 	}
 }
 
+.bold {
+	font-weight: 700;
+}
+
 header {
 	position: absolute;
 	top: 50%;
@@ -244,8 +248,8 @@ header {
 }
 
 .image {
-	width: 200px;
-	height: 200px;
+	width: 260px;
+	height: 300px;
 	border-radius: 5px;
 	float: left;
 	margin-right: 40px;
@@ -254,6 +258,7 @@ header {
 	img {
 		height: 100%;
 		width: auto;
+		margin: 0 auto;
 	}
 }
 
@@ -263,11 +268,11 @@ header {
 }
 
 .description a {
-	color: $dark-green;
+	color: $dark-blue;
 	text-decoration: none;
 
 	&:hover {
-		color: $medium-green;
+		color: $medium-blue;
 	}
 }
 
@@ -562,11 +567,13 @@ textarea {
 
 .about-section {
 	h2 {
-		color: $dark-green;
+		// color: $dark-green;
+		color: $dark-blue;
 	}
 
 	.color-block:before {
-		@include triangle(0 700px 100vh 0, transparent $light-green transparent transparent);
+		// @include triangle(0 700px 100vh 0, transparent $light-green transparent transparent);
+		@include triangle(0 700px 100vh 0, transparent $light-blue transparent transparent);
 		right: -100%;
 		top: 0;
 		z-index: -1;
@@ -574,7 +581,8 @@ textarea {
 	}
 
 	.color-block:after {
-		@include triangle(0 450px 100vh 0, transparent $medium-green transparent transparent);
+		// @include triangle(0 450px 100vh 0, transparent $medium-green transparent transparent);
+		@include triangle(0 450px 100vh 0, transparent $medium-blue transparent transparent);
 		right: -100%;
 		top: 0;
 		z-index: -1;

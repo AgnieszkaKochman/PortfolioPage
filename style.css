@@ -98,6 +98,9 @@ nav {
 .active i {
   opacity: 0; }
 
+.bold {
+  font-weight: 700; }
+
 header {
   position: absolute;
   top: 50%;
@@ -149,7 +152,7 @@ header {
     position: relative; }
 
 .image {
-  width: 300px;
+  width: 260px;
   height: 300px;
   border-radius: 5px;
   float: left;
@@ -157,17 +160,18 @@ header {
   margin-bottom: 20px; }
   .image img {
     height: 100%;
-    width: auto; }
+    width: auto;
+    margin: 0 auto; }
 
 .description p {
   line-height: 1.5;
   text-align: justify; }
 
 .description a {
-  color: #015F09;
+  color: #022F70;
   text-decoration: none; }
   .description a:hover {
-    color: #0FAB48; }
+    color: #0373BD; }
 
 .about-section, .skills-section, .contact-section {
   overflow: hidden; }
@@ -396,14 +400,14 @@ textarea {
   bottom: 0 !important; }
 
 .about-section h2 {
-  color: #015F09; }
+  color: #022F70; }
 .about-section .color-block:before {
   content: "";
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 0 700px 100vh 0;
-  border-color: transparent #54EC88 transparent transparent;
+  border-color: transparent #19B1FC transparent transparent;
   position: absolute;
   right: -100%;
   top: 0;
@@ -415,7 +419,7 @@ textarea {
   height: 0;
   border-style: solid;
   border-width: 0 450px 100vh 0;
-  border-color: transparent #0FAB48 transparent transparent;
+  border-color: transparent #0373BD transparent transparent;
   position: absolute;
   right: -100%;
   top: 0;
@@ -790,17 +794,9 @@ textarea {
     max-width: 100%;
     width: 95%;
     float: none;
-    margin: 0; }
-    .image {
-      width: 250px;
-      height: 250px;
-      } }
+    margin: 0; } }
 .g-recaptcha {
   float: right;
   margin-bottom: 10px; }
-
-  strong {
-    font-weight: bold;
-  }
 
 /*# sourceMappingURL=style.css.map */

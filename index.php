@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Agnieszka Kochman - front-end developer</title>
+		<meta name="description" content="Agnieszka Kochman - front-end developer">
+		<meta name="keywords" content="Agnieszka, Aga, Kochman, front-end, www, portfolio, praca, strony, webdesign">
+		<meta name="author" content="Agnieszka Kochman">
+
+
+		<style>
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+			@font-face {
+			  font-family: 'FontAwesome';
+			  src: url('font-awesome-4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0');
+			  src: url('font-awesome-4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('font-awesome-4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('font-awesome-4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('font-awesome-4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+			  font-weight: normal;
+			  font-style: normal;
+			}
+			.fa {
+			  display: inline-block;
+			  font: normal normal normal 14px/1 FontAwesome;
+			  font-size: inherit;
+			  text-rendering: auto;
+			  -webkit-font-smoothing: antialiased;
+			  -moz-osx-font-smoothing: grayscale;
+			}
+			.fa-facebook:before {
+			  content: "\f09a";
+			}
+			.fa-linkedin:before {
+			  content: "\f0e1";
+			}
+			.fa-github:before {
+			  content: "\f09b";
+			}
+			@font-face {
+				font-family: 'Linearicons-Free';
+				src:url('linearicons/fonts/Linearicons-Free.eot?w118d');
+				src:url('linearicons/fonts/Linearicons-Free.eot?#iefixw118d') format('embedded-opentype'),
+					url('linearicons/fonts/Linearicons-Free.woff2?w118d') format('woff2'),
+					url('linearicons/fonts/Linearicons-Free.woff?w118d') format('woff'),
+					url('linearicons/fonts/Linearicons-Free.ttf?w118d') format('truetype'),
+					url('linearicons/fonts/Linearicons-Free.svg?w118d#Linearicons-Free') format('svg');
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			.lnr {
+				font-family: 'Linearicons-Free';
+				speak: none;
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				text-transform: none;
+				line-height: 1;
+
+				/* Better Font Rendering =========== */
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+			}
+			.lnr-user:before {
+				content: "\e82a";
+			}
+			.lnr-magic-wand:before {
+				content: "\e803";
+			}
+			.lnr-star-half:before {
+				content: "\e815";
+			}
+			.lnr-laptop-phone:before {
+				content: "\e83d";
+			}
+			.lnr-bubble:before {
+				content: "\e83f";
+			}
+			.lnr-chevron-down:before {
+				content: "\e874";
+			}
+
+			.pdf-link img {
+				width: 30px;
+				height: 30px;
+				margin: 0 10px -8px 0;
+			}
+		</style>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div id="menu-button" class="menu-button">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<nav>
+			<ul>
+				<li><a data-href="#about" data-color="green"><i class="lnr lnr-user"></i><span class="green">O mnie</span></a></li>
+				<li><a data-href="#skills" data-color="yellow"><i class="lnr lnr-magic-wand"></i><span class="yellow">Umiejętności</span></a></li>
+				<li><a data-href="#home" data-color="turquoise"><i class="lnr lnr-star-half turquoise"></i></a></li>
+				<li><a data-href="#portfolio" data-color="violet"><i class="lnr lnr-laptop-phone"></i><span class="violet">Portfolio</span></a></li>
+				<li><a data-href="#contact" data-color="blue"><i class="lnr lnr-bubble"></i><span class="blue">Kontakt</span></a></li>
+			</ul>
+		</nav>
+
+		<section id="home" class="page-section home-section">
+			<div class="color-block left"></div>
+			<article class="content home show-content-animation show-content">
+				<header>
+					<h1>Agnieszka Kochman</h1>
+					<h2>front-end developer</h2>
+					<a data-href="#about" id="arrow"><i class="lnr lnr-chevron-down"></i></a>
+				</header>					
+			</article>
+			<div class="block right"></div>
+		</section>
+
+		<section id="about" class="page-section about-section">
+			<div class="color-block right"></div>
+			<article class="content about">
+				<h2 class="green">O mnie</h2>
+				<div class="description">
+					<p>Cześć! Jestem Agnieszka i&nbsp;mam 24 lata. W&nbsp;tym roku skończyłam studia inżynierskie na kierunku Informatyka na wydziale Automatyki Elektroniki i&nbsp;Informatyki Politechniki Śląskiej w&nbsp;Gliwicach. Mam 9&nbsp;miesięcy doświadczenia w&nbsp;pracy jako junior web developer.</p>
+					<div class="image"><img src="aga1.jpg" alt="Agnieszka Kochman"></div>
+					<p>Tworzenie stron internetowych było mi bliskie od dawna, kiedy na przełomie szkoły podstawowej i&nbsp;gimnazjum miałam kilka blogów na Onecie i&nbsp;bardziej podobało mi się zmienianie co tydzień ich wyglądu, niż pisanie postów :) Później w&nbsp;technikum temat stron www powrócił wraz z&nbsp;konkursem "Mistrz sieci", w&nbsp;którym wraz z&nbsp;koleżanką dostałyśmy się do finału za stworzenie strony <a href="http://agnieszka-and-chylinska.cba.pl/index.html"><strong>E-portfolio</strong></a>. Jednak "na poważnie" tematem stron zainteresowałam się w&nbsp;trakcie studiów.</p><p><strong>Szukam pracy jako junior front-end developer na terenie Katowic lub okolic.</strong></p>
+					<p>Zdobyłam doświadczenie w&nbsp;tworzeniu stron internetowych oraz szablonów z&nbsp;wykorzystaniem Wordpressa, ale bardzo chciałabym rozwijać się w&nbsp;kierunku programowania w&nbsp;JavaScript i&nbsp;tworzenia aplikacji w&nbsp;Angularze.</p>
+					<p>Poza kodowaniem lubię yerba mate i&nbsp;starożytny Egipt.</p>
+					<p><a href="Agnieszka_Kochman_Referencja.pdf" class="pdf-link"><img src="pdficon.png" alt="PDF icon">Referencja od poprzedniego pracodawcy</a></p>
+				</div>
+			</article>
+			<div class="block bottom"></div>
+		</section>
+
+		<section id="skills" class="page-section skills-section">
+			<div class="color-block left"></div>
+			<article class="content skills">
+				<h2 class="yellow">Umiejętności</h2>
+				<h3>Dobrze</h3>
+				<ul class="skills-list">
+					<li>HTML(5)</li>
+					<li>CSS(3)</li>
+					<li>SCSS</li>
+					<li>RWD</li>
+					<li>jQuery</li>
+				</ul>
+				<h3>Podstawy</h3>
+				<ul class="skills-list">
+					<li>JavaScript</li>
+					<li>Bootstrap 4</li>
+					<li>Angular</li>
+					<li>AJAX</li>
+					<li>JSON</li>
+					<li>Wordpress</li>
+					<li>MySQL</li>
+					<li>PHP</li>
+				</ul>
+				<h3>Inne</h3>
+				<ul class="skills-list">
+					<li>Photoshop</li>
+					<li>Gimp</li>
+					<li>Git</li>
+				</ul>
+			</article>
+			<div class="block bottom"></div>
+		</section>
+
+		<section id="portfolio" class="page-section portfolio-section">
+			<div class="color-block right"></div>
+			<article class="content portfolio">
+				<h2 class="violet">Portfolio</h2>
+				<ul class="works-list">
+					<li>
+						<a href="https://agnieszkakochman.github.io/time-management/">
+							<img src="works/01.png" alt="projekt">
+							<div class="overlay">
+								<h4>Projekt inżynierski</h4>
+								<p>Zarządzanie czasem (HTML, CSS, AngularJS, PHP, MySQL)</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="https://agnieszkakochman.github.io/hangman/">
+							<img src="works/16.PNG" alt="projekt">
+							<div class="overlay">
+								<h4>Hangman</h4>
+								<p>Prosta gra</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="https://agnieszkakochman.github.io/tic-tac-toe/">
+							<img src="works/03.png" alt="projekt">
+							<div class="overlay">
+								<h4>Kółko i krzyżyk</h4>
+								<p>Gra dla dwóch graczy</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="https://agnieszkakochman.github.io/memory/">
+							<img src="works/04.png" alt="projekt">
+							<div class="overlay">
+								<h4>Memory</h4>
+								<p>Prosta gra</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="https://agnieszkakochman.github.io/slider/">
+							<img src="works/05.png" alt="projekt">
+							<div class="overlay">
+								<h4>JS Slider</h4>
+								<p>Prosty slider</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="https://agnieszkakochman.github.io/weekly-webdev-challenge/01/">
+							<img src="works/17.PNG" alt="projekt">
+							<div class="overlay">
+								<h4>Masterlab</h4>
+								<p>Weekly Web Dev Challenge #1</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="https://agnieszkakochman.github.io/weekly-webdev-challenge/02/">
+							<img src="works/18.PNG" alt="projekt">
+							<div class="overlay">
+								<h4>Cahee</h4>
+								<p>Weekly Web Dev Challenge #2</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="https://agnieszkakochman.github.io/hexal-psd/">
+							<img src="works/02.png" alt="projekt">
+							<div class="overlay">
+								<h4>Hexal</h4>
+								<p>Projekt z darmowego PSD</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.ecogroup.com.pl/">
+							<img src="works/09.PNG" alt="projekt">
+							<div class="overlay">
+								<h4>ecoGroup</h4>
+								<p>Współpraca z Monday - Agencja Interaktywna</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.quantumlive.pl/">
+							<img src="works/10.PNG" alt="projekt">
+							<div class="overlay">
+								<h4>QuantumLive</h4>
+								<p>Współpraca z Monday - Agencja Interaktywna</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="http://wearemonday.pl/animacje_produktowe/">
+							<img src="works/11.PNG" alt="projekt">
+							<div class="overlay">
+								<h4>Animacje produktowe Monday</h4>
+								<p>Współpraca z Monday - Agencja Interaktywna</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="https://vimeo.com/228659465">
+							<img src="works/14.PNG" alt="projekt">
+							<div class="overlay">
+								<h4>explainer video</h4>
+								<p>Współpraca z Monday - Agencja Interaktywna</p>
+								<p>Animacja wykonana w PowToon</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</article>
+			<div class="block"></div>
+		</section>
+
+		<section id="contact" class="page-section contact-section">
+			<div class="color-block left"></div>
+			<article class="content contact">
+				<h2 class="blue">Kontakt</h2>
+				<div class="socials">
+					<a href="https://www.facebook.com/agnieszka.kochman" target="_blank"><span class="fa fa-facebook"></span></a>
+					<a href="https://www.linkedin.com/in/agnieszkakochman/" target="_blank"><span class="fa fa-linkedin"></span></a>
+					<a href="https://github.com/AgnieszkaKochman/AgnieszkaKochman.github.io" target="_blank"><span class="fa fa-github"></span></a>
+				</div>
+				<form method="POST" name="contactForm" onsubmit="return validateForm()">
+					<label for="formName">Imię</label>
+					<input type="text" name="formName" id="formName" placeholder="Twoje imię" class="text-field field" required>
+					<p id="name-error" class="error"></p>
+					<label for="formEmail">Email</label>
+					<input type="email" name="formEmail" id="formEmail" placeholder="Twój email" class="text-field field" required>
+					<p id="email-error" class="error"></p>
+					<label for="formText">Wiadomość</label>
+					<textarea placeholder="Wiadomość" name="formText" id="formText" class="field" required></textarea>
+					<div class="field submit">
+						<input type="submit" name="submit" value="Wyślij">
+					</div>
+				</form>
+
+				<?php
+					 if(!empty($_POST['submit'])) {
+    					$email = 'kochman.aga@gmail.com';
+    					$formName = $_POST['formName'];
+    					$formEmail = $_POST['formEmail'];
+    					$formText = $_POST['formText'];
+    
+    					//dodatkowe informacje: ip i host użytkownika
+          				$ip = $_SERVER['REMOTE_ADDR'];
+          				$host = gethostbyaddr($_SERVER['REMOTE_ADDR']);
+          				$protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']),'https') === FALSE ? 'http' : 'https';
+            			$host     = $_SERVER['HTTP_HOST'];
+            			$script   = $_SERVER['SCRIPT_NAME'];
+            			$params   = $_SERVER['QUERY_STRING'];
+            
+            			$currentUrl = $protocol . '://' . $host . $script . '?' . $params;
+        
+          				$mailText = "Treść wiadomości: <br /> $formText <br /> <br /> <br /> Od: $formName, $formEmail ($ip, $host) <br /> <br /> Link: $currentUrl";
+        				$mailHeader = "From: $formName <$formEmail>".PHP_EOL."Content-type: text/html; charset=utf-8";
+
+        				@mail($email, '[PORTFOLIO]', $mailText, $mailHeader) or die('<p>Błąd podczas wysyłania wiadomości</p>');
+						   					
+          				//komunikat o poprawnym wysłaniu wiadomości
+          				echo '<p>Wiadomość została wysłana</p>';	
+					}
+					?>				
+			</article>
+			<div class="block bottom"></div>
+		</section>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="skrypty.js"></script>
+	
+	</body>
+</html>

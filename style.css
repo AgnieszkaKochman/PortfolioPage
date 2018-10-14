@@ -531,14 +531,14 @@ textarea {
 .contact-section {
   padding-bottom: 70px; }
   .contact-section h2 {
-    color: #022F70; }
+    color: #015F09; }
   .contact-section .color-block:before {
     content: "";
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 100vh 750px 0 0;
-    border-color: #19B1FC transparent transparent transparent;
+    border-color: #54EC88 transparent transparent transparent;
     position: absolute;
     top: 0;
     left: -100%;
@@ -550,7 +550,7 @@ textarea {
     height: 0;
     border-style: solid;
     border-width: 100vh 450px 0 0;
-    border-color: #0373BD transparent transparent transparent;
+    border-color: #0FAB48 transparent transparent transparent;
     position: absolute;
     top: 0;
     left: -100%;

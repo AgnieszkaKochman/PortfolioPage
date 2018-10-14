@@ -669,11 +669,13 @@ overflow: hidden;
 	padding-bottom: 70px;
 	
 	h2 {
-		color: $dark-blue;
+		// color: $dark-blue;
+		color: $dark-green;
 	}
 
 	.color-block:before {
-		@include triangle(100vh 750px 0 0, $light-blue transparent transparent transparent);
+		// @include triangle(100vh 750px 0 0, $light-blue transparent transparent transparent);
+		@include triangle(100vh 750px 0 0, $light-green transparent transparent transparent);
 		top: 0;
 		left: -100%;
 		z-index: -1;
@@ -681,7 +683,8 @@ overflow: hidden;
 	}
 
 	.color-block:after {
-		@include triangle(100vh 450px 0 0, $medium-blue transparent transparent transparent);
+		// @include triangle(100vh 450px 0 0, $medium-blue transparent transparent transparent);
+		@include triangle(100vh 450px 0 0, $medium-green transparent transparent transparent);
 		top: 0;
 		left: -100%;
 		z-index: -1;

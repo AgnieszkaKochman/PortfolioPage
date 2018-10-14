@@ -163,12 +163,12 @@
 			<article class="content about">
 				<h2 class="green">O mnie</h2>
 				<div class="description">
-					<p>Cześć! Jestem Agnieszka i&nbsp;mam 24 lata. W&nbsp;tym roku skończyłam studia inżynierskie na kierunku Informatyka na wydziale Automatyki Elektroniki i&nbsp;Informatyki Politechniki Śląskiej w&nbsp;Gliwicach. Mam 9&nbsp;miesięcy doświadczenia w&nbsp;pracy jako junior web developer.</p>
-					<div class="image"><img src="aga1.jpg" alt="Agnieszka Kochman"></div>
-					<p>Tworzenie stron internetowych było mi bliskie od dawna, kiedy na przełomie szkoły podstawowej i&nbsp;gimnazjum miałam kilka blogów na Onecie i&nbsp;bardziej podobało mi się zmienianie co tydzień ich wyglądu, niż pisanie postów :) Później w&nbsp;technikum temat stron www powrócił wraz z&nbsp;konkursem "Mistrz sieci", w&nbsp;którym wraz z&nbsp;koleżanką dostałyśmy się do finału za stworzenie strony <a href="http://agnieszka-and-chylinska.cba.pl/index.html"><strong>E-portfolio</strong></a>. Jednak "na poważnie" tematem stron zainteresowałam się w&nbsp;trakcie studiów.</p><p><strong>Szukam pracy jako junior front-end developer na terenie Katowic lub okolic.</strong></p>
-					<p>Zdobyłam doświadczenie w&nbsp;tworzeniu stron internetowych oraz szablonów z&nbsp;wykorzystaniem Wordpressa, ale bardzo chciałabym rozwijać się w&nbsp;kierunku programowania w&nbsp;JavaScript i&nbsp;tworzenia aplikacji w&nbsp;Angularze.</p>
-					<p>Poza kodowaniem lubię yerba mate i&nbsp;starożytny Egipt.</p>
-					<p><a href="Agnieszka_Kochman_Referencja.pdf" class="pdf-link"><img src="pdficon.png" alt="PDF icon">Referencja od poprzedniego pracodawcy</a></p>
+					<p>Cześć! Jestem Agnieszka i&nbsp;mam 25 lat. W&nbsp;2017 roku skończyłam studia inżynierskie na kierunku Informatyka na wydziale Automatyki Elektroniki i&nbsp;Informatyki Politechniki Śląskiej w&nbsp;Gliwicach. Mam 1,5&nbsp;roku doświadczenia w&nbsp;pracy jako front-end developer.</p>
+					<div class="image"><img src="aga2.jpg" alt="Agnieszka Kochman"></div>
+					<p>Tworzenie stron internetowych było mi bliskie od dawna, kiedy na przełomie szkoły podstawowej i&nbsp;gimnazjum miałam kilka blogów na Onecie i&nbsp;bardziej podobało mi się zmienianie co tydzień ich wyglądu, niż pisanie postów :) Później w&nbsp;technikum temat stron www powrócił wraz z&nbsp;konkursem "Mistrz sieci", w&nbsp;którym wraz z&nbsp;koleżanką dostałyśmy się do finału za stworzenie strony <a href="http://agnieszka-and-chylinska.cba.pl/index.html"><strong>E-portfolio</strong></a>. Jednak "na poważnie" tematem stron zainteresowałam się w&nbsp;trakcie studiów.</p><p><strong>Szukam pracy jako front-end developer na terenie Katowic lub okolic.</strong></p>
+					<p>Zdobyłam doświadczenie w&nbsp;tworzeniu stron internetowych, szablonów Wordpress, aplikacji mobilnych w&nbsp;Ionic Framework oraz łączeniu aplikacji mobilnych z&nbsp;REST API.</p>
+					<p>Poza kodowaniem lubię yerba mate, starożytny Egipt i&nbsp;grę na gitarze.</p>
+					<!-- <p><a href="Agnieszka_Kochman_Referencja.pdf" class="pdf-link"><img src="pdficon.png" alt="PDF icon">Referencja od poprzedniego pracodawcy</a></p> -->
 				</div>
 			</article>
 			<div class="block bottom"></div>

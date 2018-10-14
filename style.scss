@@ -196,23 +196,32 @@ header {
 		margin: 40px 0;
 	}
 
+	.header-arrow {
+		position: relative;
+		display: block;
+		width: 64px;
+		height: 64px;
+		margin: 0 auto;
+		cursor: pointer;
+	}
+
 	.lnr {
 		font-size: 4em;
 		color: $dark-turquoise;
 		cursor: pointer;
 		position: absolute;
-		bottom: -70px;
-		left: 50%;
-		transform: translateX(-50%);
+		// bottom: -70px;
+		left: 0;
+		// transform: translateX(-50%);
 		animation: arrow-move 1s ease;
 		animation-iteration-count: infinite;
 	}
 }
 
 @keyframes arrow-move {
-	0%   {bottom: -70px;}
-	50%  {bottom: -60px;}
-	100% {bottom: -70px;}
+	0%   {bottom: -10px;}
+	50%  {bottom: 0px;}
+	100% {bottom: -10px;}
 }
 
 .page-section {

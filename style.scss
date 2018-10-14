@@ -971,8 +971,8 @@ overflow: hidden;
 	}
 
 	.about-section {
-		.color-block { background-color: $medium-green; }
-		.block { background-color: $light-green; }
+		.color-block { background-color: $medium-blue; }
+		.block { background-color: $light-blue; }
 	}
 
 	.skills-section {
@@ -986,8 +986,8 @@ overflow: hidden;
 	}
 
 	.contact-section {
-		.color-block { background-color: $medium-blue; }
-		.block { background-color: $light-blue; }
+		.color-block { background-color: $medium-green; }
+		.block { background-color: $light-green; }
 	}
 
 	.page-section {
@@ -1010,8 +1010,23 @@ overflow: hidden;
 		margin: 0 auto;
 		float: none;
 
-		.fa {
-			margin: 0 15px;
+		a {
+			flex-wrap: wrap;
+			justify-content: center;
+
+			.fa {
+				// margin: 0 15px;
+				display: block;
+				width: 100%;
+				margin-right: 15px;
+			}
+
+			span {
+				display: block;
+				width: 100%;
+				margin: 10px auto;
+				text-align: center;
+			}
 		}
 	}
 

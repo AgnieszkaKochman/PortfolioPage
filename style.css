@@ -769,9 +769,9 @@ textarea {
     font-size: 1.2em !important; }
 
   .about-section .color-block {
-    background-color: #0FAB48; }
+    background-color: #0373BD; }
   .about-section .block {
-    background-color: #54EC88; }
+    background-color: #19B1FC; }
 
   .skills-section .color-block {
     background-color: #EE9203; }
@@ -784,9 +784,9 @@ textarea {
     background-color: #BB88CD; }
 
   .contact-section .color-block {
-    background-color: #0373BD; }
+    background-color: #0FAB48; }
   .contact-section .block {
-    background-color: #19B1FC; }
+    background-color: #54EC88; }
 
   .page-section {
     overflow: auto; }
@@ -803,8 +803,18 @@ textarea {
   .socials {
     margin: 0 auto;
     float: none; }
-    .socials .fa {
-      margin: 0 15px; }
+    .socials a {
+      flex-wrap: wrap;
+      justify-content: center; }
+      .socials a .fa {
+        display: block;
+        width: 100%;
+        margin-right: 15px; }
+      .socials a span {
+        display: block;
+        width: 100%;
+        margin: 10px auto;
+        text-align: center; }
 
   form {
     width: 95%; } }
